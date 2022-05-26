@@ -13,7 +13,7 @@ import Cart from './pages/cart/Cart';
 import './App.css';
 import Checkout from './pages/checkout/Checkout';
 import Mens from './pages/Products/Mens';
-import Womens from './pages/Products/womens';
+import Womens from './pages/Products/Womens';
 import Kids from './pages/Products/Kids';
 
 function App() {
