@@ -51,9 +51,9 @@ function Product() {
                 <ProductContainer key = {e.id}>
                          
                       <Link style={{textDecoration: 'none'}} to = {`/product/${e.id}`}>
-                    <Image  src = {e.img[0]} />
+                    <Image  src = {e.img} />
                     <Price>{e.price}</Price>
-                    <Title>{e.name}</Title>
+                    <Title>{e.title}</Title>
                     <Text>{e.collection}</Text>  
                     </Link>                
                 </ProductContainer>
