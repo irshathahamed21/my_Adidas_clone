@@ -1,0 +1,36 @@
+
+
+h1 {
+    font-size:30px !important;
+}
+p {
+    font-size:18px !important;
+}
+
+.signup-form {
+    width:650px !important ;
+}
+.signup-form input[type="password"], .signup-form input[type="email"] {
+    width:100% !important;
+    margin-top:20px;
+    height:40px;
+}
+.signup-form button {
+    background-color: rgb(66, 59, 59);
+    padding:10px 20px;
+    color:white;
+    text-align: left;
+    margin-top: 20px;
+}
+.checkbox__div {
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+    align-items: center;
+    
+}
+
+.checkbox__div input[type="checkbox"] {
+    height:20px;
+    width:20px;
+}

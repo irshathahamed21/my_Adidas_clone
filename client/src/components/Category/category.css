@@ -1,0 +1,32 @@
+.category {
+    width:90vw;
+    height:60vh;
+    /* put height:30vh; so next element came after 30px height to avoid these error i put 60vh  */
+    margin: auto;
+    margin-top:10vh;
+    /* border:2px solid black; */
+
+}
+.category__container {
+    display:flex;
+    gap:18px;
+    margin-top:2vh;
+    
+
+}
+.men,.women,.kids {
+    display:flex;
+    flex:1;
+    position: relative;
+   
+}
+
+
+.men h4,.women h4,.kids h4 {
+    position:absolute;
+    top:45%;
+    bottom:45%;
+    left:45%;
+    color:white;
+    
+}
